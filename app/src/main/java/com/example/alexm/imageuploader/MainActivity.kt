@@ -51,7 +51,7 @@ class MainActivity : AppCompatActivity(),IView{
 
             // specify an viewAdapter (see also next example)
             adapter = viewAdapter
-            Toast.makeText(applicationContext, MESSAGE_ALL_GREEN, Toast.LENGTH_SHORT).show()
+            Toast.makeText(this@MainActivity, MESSAGE_ALL_GREEN, Toast.LENGTH_SHORT).show()
         }
     }
 
